@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: OTOBO Installation Guide rel-11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-16 09:20+0200\n"
-"PO-Revision-Date: 2024-07-08 06:52+0000\n"
+"PO-Revision-Date: 2025-01-10 09:21+0000\n"
 "Last-Translator: Markus Hlinka <mah@rother-oss.com>\n"
 "Language-Team: German <http://weblate.otobo.org/projects/"
 "manual-downloadallattachments/master/de/>\n"
@@ -18,12 +18,12 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4.2\n"
+"X-Generator: Weblate 5.8.4\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../content/index.rst:16
 msgid "Sacrifice to Sphinx"
-msgstr ""
+msgstr "Sacrifice to Sphinx"
 
 #: ../../content/index.rst:19
 msgid "Description"
@@ -85,23 +85,23 @@ msgstr "OTOBO 11.0.x"
 
 #: ../../content/index.rst:43
 msgid "\\-"
-msgstr ""
+msgstr "\\-"
 
 #: ../../content/index.rst:47
 msgid "Archive::Zip"
-msgstr ""
+msgstr "Archive::Zip"
 
 #: ../../content/index.rst:50
 msgid "Configuration Reference"
-msgstr ""
+msgstr "Konfigurationsreferenz"
 
 #: ../../content/index.rst:57
 msgid "Autoloading of DownloadAttachment extensions."
-msgstr ""
+msgstr "Autoloading der DownloadAttachment-Erweiterungen."
 
 #: ../../content/index.rst:64
 msgid "Frontend module registration for the agent interface."
-msgstr ""
+msgstr "Registrierung des Frontend-Moduls für die Agentenoberfläche."
 
 #: ../../content/index.rst:71
 msgid ""
@@ -116,6 +116,8 @@ msgid ""
 "This configuration registers a link in the ticket menu to download all "
 "ticket attachments."
 msgstr ""
+"Diese Konfiguration registriert einen Link im Ticketmenü zum Herunterladen "
+"aller Ticketanhänge."
 
 #: ../../content/index.rst:81
 msgid "About"
@@ -138,3 +140,5 @@ msgid ""
 "Author: |doc-vendor| / Version: |doc-version| / Date of release: |doc-"
 "datestamp|"
 msgstr ""
+"Autor: |doc-vendor| / Version: |doc-version| / Datum der Veröffentlichung: "
+"|doc-datestamp|"
