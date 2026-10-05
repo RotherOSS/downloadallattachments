@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: OTOBO Installation Guide rel-11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-13 11:00+0000\n"
-"PO-Revision-Date: 2026-10-05 05:41+0000\n"
+"PO-Revision-Date: 2026-10-05 06:41+0000\n"
 "Last-Translator: Kozo Sakurai <sakurai@io-architect.com>\n"
 "Language-Team: Japanese <http://translate.otobo.org/projects/otobo-11-1/"
 "addons/manuals/downloadallattachments-documentation/ja/>\n"
@@ -33,20 +33,24 @@ msgstr "説明"
 msgid ""
 "Enables download of all ticket or article attachments as a single zip file."
 msgstr ""
+"チケットまたは記事のすべての添付ファイルを、1つの zip ファイルとして"
+"ダウンロードできるようにします。"
 
 #: ../content/index.rst:14
 msgid "Functionality"
-msgstr ""
+msgstr "機能"
 
 #: ../content/index.rst:17
 msgid "Download multiple attachments as single zip file"
-msgstr ""
+msgstr "複数の添付ファイルを1つの zip ファイルとしてダウンロード"
 
 #: ../content/index.rst:19
 msgid ""
 "This package extends OTOBO with the functionality to download all "
 "attachments of a ticket or article as a single zip file."
 msgstr ""
+"このパッケージは、チケットまたは記事のすべての添付ファイルを1つの zip "
+"ファイルとしてダウンロードする機能を OTOBO に追加します。"
 
 #: ../content/index.rst:21
 msgid ""
@@ -54,6 +58,9 @@ msgid ""
 "attachments' in the ticket menu of the ticket zoom view. The filename will "
 "have the following pattern: 'Attachments Ticket *TicketNummer*.zip'."
 msgstr ""
+"チケットの添付ファイルは、チケットズームビューのチケットメニューに追加される"
+"新しいリンク 'Download ticket attachments' からダウンロードできます。ファイル"
+"名は 'Attachments Ticket *TicketNummer*.zip' という形式になります。"
 
 #: ../content/index.rst:23
 msgid ""
@@ -62,6 +69,10 @@ msgid ""
 "attachments box. The filename will have the following pattern: 'Attachments "
 "Ticket *TicketNummer* ArticleID *ArticleID*.zip'."
 msgstr ""
+"記事のすべての添付ファイルを1つの zip ファイルとしてダウンロードするには、記"
+"事の添付ファイルボックスの添付ファイル一覧の上に追加された新しいリンク "
+"'Download all (zip)' を使用します。ファイル名は 'Attachments Ticket "
+"*TicketNummer* ArticleID *ArticleID*.zip' という形式になります。"
 
 #: ../content/index.rst:26
 msgid "System requirements"
@@ -69,7 +80,7 @@ msgstr "システム要件"
 
 #: ../content/index.rst:30
 msgid "OTOBO 11.1.x"
-msgstr ""
+msgstr "OTOBO 11.1.x"
 
 #: ../content/index.rst:34
 msgid "\\-"
@@ -77,7 +88,7 @@ msgstr "\\-"
 
 #: ../content/index.rst:38
 msgid "Archive::Zip"
-msgstr ""
+msgstr "Archive::Zip"
 
 #: ../content/index.rst:41
 msgid "Configuration Reference"
@@ -85,7 +96,7 @@ msgstr "設定リファレンス"
 
 #: ../content/index.rst:48
 msgid "Autoloading of DownloadAttachment extensions."
-msgstr ""
+msgstr "DownloadAttachment 拡張機能の自動読み込み。"
 
 #: ../content/index.rst:55
 msgid "Frontend module registration for the agent interface."
@@ -96,12 +107,16 @@ msgid ""
 "This configuration registers a link in the ticket menu to the ticket "
 "overviews of the agent interface to download all ticket attachments."
 msgstr ""
+"この設定は、担当者インタフェースのチケット一覧のチケットメニューに、チケット"
+"のすべての添付ファイルをダウンロードするリンクを登録します。"
 
 #: ../content/index.rst:69
 msgid ""
 "This configuration registers a link in the ticket menu to download all "
 "ticket attachments."
 msgstr ""
+"この設定は、チケットメニューに、チケットのすべての添付ファイルをダウンロード"
+"するリンクを登録します。"
 
 #: ../content/index.rst:72
 msgid "About"
