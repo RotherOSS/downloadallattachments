@@ -6,7 +6,7 @@
     <ModuleRequired>Archive::Zip</ModuleRequired>
     <Vendor>Rother OSS GmbH</Vendor>
     <URL>https://otobo.io/</URL>
-    <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+    <License>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</License>
     <Description Lang="en">Enables download of all ticket or article attachments as a single zip file.</Description>
     <Description Lang="de">Ermöglicht den Download aller Anhänge eines Tickets oder Artikels als Zip-Datei.</Description>
     <Filelist>
