@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: OTOBO Installation Guide rel-10.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-15 07:34+0000\n"
-"PO-Revision-Date: 2026-07-14 11:00+0000\n"
+"PO-Revision-Date: 2026-10-21 11:41+0000\n"
 "Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
 "Language-Team: Hungarian <http://translate.otobo.org/projects/otobo-10-1/"
 "addons/manuals/downloadallattachments-documentation/hu/>\n"
@@ -18,12 +18,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16\n"
+"X-Generator: Weblate 2026.9\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../content/index.rst:5
 msgid "Contents"
-msgstr ""
+msgstr "Tartalom"
 
 #: ../content/index.rst:10
 msgid "Description"
@@ -33,20 +33,24 @@ msgstr "Leírás"
 msgid ""
 "Enables download of all ticket or article attachments as a single zip file."
 msgstr ""
+"Lehetővé teszi az összes jegy- vagy bejegyzésmelléklet letöltését egyetlen "
+"ZIP-fájlként."
 
 #: ../content/index.rst:14
 msgid "Functionality"
-msgstr ""
+msgstr "Funkcionalitás"
 
 #: ../content/index.rst:17
 msgid "Download multiple attachments as single zip file"
-msgstr ""
+msgstr "Több melléklet letöltése egyetlen ZIP-fájlként"
 
 #: ../content/index.rst:19
 msgid ""
 "This package extends Znuny with the functionality to download all "
 "attachments of a ticket or article as a single zip file."
 msgstr ""
+"Ez a csomag kiterjeszti a Znunyt egy olyan funkcióval, hogy letölthesse egy "
+"jegy vagy egy bejegyzés összes mellékletét egyetlen ZIP-fájlként."
 
 #: ../content/index.rst:21
 msgid ""
@@ -54,6 +58,9 @@ msgid ""
 "attachments' in the ticket menu of the ticket zoom view. The filename will "
 "have the following pattern: 'Attachments Ticket *TicketNummer*.zip'."
 msgstr ""
+"A jegymellékletek a jegy nagyított nézetének jegymenüjében lévő új „"
+"Jegymellékletek letöltése” hivatkozáson keresztül tölthetők le. A fájlnév a "
+"következő mintát fogja kapni: „Attachments Ticket *jegyszám*.zip”."
 
 #: ../content/index.rst:23
 msgid ""
@@ -62,6 +69,11 @@ msgid ""
 "attachments box. The filename will have the following pattern: 'Attachments "
 "Ticket *TicketNummer* ArticleID *ArticleID*.zip'."
 msgstr ""
+"Ahhoz, hogy egy bejegyzés összes mellékletét egyetlen ZIP-fájlként töltse "
+"le, egy új, „Összes letöltése (ZIP)” hivatkozás lett hozzáadva a "
+"bejegyzésmellékletek dobozában lévő mellékletlista tetejéhez. A fájlnév a "
+"következő mintát fogja kapni: „Attachments Ticket *jegyszám* ArticleID "
+"*bejegyzés-azonosító*.zip”."
 
 #: ../content/index.rst:26
 msgid "System requirements"
@@ -77,7 +89,7 @@ msgstr "\\-"
 
 #: ../content/index.rst:38
 msgid "Archive::Zip"
-msgstr ""
+msgstr "Archive::Zip"
 
 #: ../content/index.rst:41
 msgid "Configuration Reference"
@@ -85,7 +97,7 @@ msgstr "Beállítások hivatkozása"
 
 #: ../content/index.rst:48
 msgid "Autoloading of DownloadAttachment extensions."
-msgstr ""
+msgstr "A mellékletek letöltése kiterjesztések automatikus betöltése."
 
 #: ../content/index.rst:55
 msgid "Frontend module registration for the agent interface."
@@ -96,12 +108,16 @@ msgid ""
 "This configuration registers a link in the ticket menu to the ticket "
 "overviews of the agent interface to download all ticket attachments."
 msgstr ""
+"Ez a beállítás regisztrál egy hivatkozást a jegymenüben az ügyintézői "
+"felület jegyáttekintőihez az összes jegymelléklet letöltéséhez."
 
 #: ../content/index.rst:69
 msgid ""
 "This configuration registers a link in the ticket menu to download all "
 "ticket attachments."
 msgstr ""
+"Ez a beállítás regisztrál egy hivatkozást a jegymenüben az összes "
+"jegymelléklet letöltéséhez."
 
 #: ../content/index.rst:72
 msgid "About"
