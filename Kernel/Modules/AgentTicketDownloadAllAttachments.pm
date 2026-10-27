@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2012-2021 Znuny GmbH, http://znuny.com/
-# Copyright (C) 2019-2020 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2026 Rother OSS GmbH, https://otobo.io/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -12,6 +12,10 @@
 # FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
+# --
+# This software comes with ABSOLUTELY NO WARRANTY. For details, see
+# the enclosed file COPYING for license information (GPL). If you
+# did not receive this file, see https://www.gnu.org/licenses/gpl-3.0.txt.
 # --
 
 package Kernel::Modules::AgentTicketDownloadAllAttachments;
@@ -222,7 +226,7 @@ sub Run {
     # write tmp file
     my ( $FH, $Filename ) = $FileTempObject->TempFile();
 
-    if ( open( my $ZipFH, '>', $Filename ) ) {    ##no critic
+    if ( open( my $ZipFH, '>', $Filename ) ) {    ## no critic qw(OTOBO::ProhibitOpen)
 
         if ( $Zip->writeToFileHandle($ZipFH) != AZ_OK ) {    ## nofilter(TidyAll::Plugin::OTOBO::Perl::SyntaxCheck)
             $LayoutObject->FatalError(
@@ -238,9 +242,9 @@ sub Run {
     }
 
     my $Content = '';
-    if ( open( my $ZipFH, "<", $Filename ) ) {    ##no critic
-        while (<$ZipFH>) {
-            $Content .= $_;
+    if ( open( my $ZipFH, "<", $Filename ) ) {    ## no critic qw(OTOBO::ProhibitOpen)
+        while ( my $Line = <$ZipFH> ) {
+            $Content .= $Line;
         }
         close $ZipFH;
     }

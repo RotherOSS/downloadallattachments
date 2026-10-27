@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2012-2021 Znuny GmbH, http://znuny.com/
-# Copyright (C) 2019-2020 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2026 Rother OSS GmbH, https://otobo.io/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -13,10 +13,14 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
 # --
+# This software comes with ABSOLUTELY NO WARRANTY. For details, see
+# the enclosed file COPYING for license information (GPL). If you
+# did not receive this file, see https://www.gnu.org/licenses/gpl-3.0.txt.
+# --
 ## nofilter(TidyAll::Plugin::OTRS::Legal::OTRSAGCopyright)
 ## nofilter(TidyAll::Plugin::OTRS::Znuny4OTRS::Deprecated::CodePolicy)
 ## nofilter(TidyAll::Plugin::OTRS::Znuny4OTRS::Deprecated::ArticleFunctions)
-package Kernel::System::Ticket::Article;    ## no critic
+package Kernel::System::Ticket::Article;    ## no critic qw(Modules::RequireFilenameMatchesPackage)
 
 =head1 NAME
 
@@ -209,7 +213,7 @@ Returns:
 
 =cut
 
-sub ArticleAttachment {    ## no critic;
+sub ArticleAttachment {
     my ( $Self, %Param ) = @_;
 
     my $ArticleBackendObject = $Self->BackendForArticle(
@@ -427,5 +431,7 @@ sub ArticleContentPathGet {
 
     return $Result;
 }
+
+package Kernel::Autoload::RepoArticle;    ## no critic qw(Modules::ProhibitMultiplePackages)
 
 1;
