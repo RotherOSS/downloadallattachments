@@ -13,6 +13,10 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
 # --
+# This software comes with ABSOLUTELY NO WARRANTY. For details, see
+# the enclosed file COPYING for license information (GPL). If you
+# did not receive this file, see https://www.gnu.org/licenses/gpl-3.0.txt.
+# --
 
 package Kernel::Modules::AgentTicketDownloadAllAttachments;
 
@@ -239,8 +243,8 @@ sub Run {
 
     my $Content = '';
     if ( open( my $ZipFH, "<", $Filename ) ) {    ## no critic qw(OTOBO::ProhibitOpen)
-        while (<$ZipFH>) {
-            $Content .= $_;
+        while ( my $Line = <$ZipFH> ) {
+            $Content .= $Line;
         }
         close $ZipFH;
     }

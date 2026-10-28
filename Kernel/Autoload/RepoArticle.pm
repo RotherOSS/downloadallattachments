@@ -13,11 +13,12 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
 # --
-## nofilter(TidyAll::Plugin::OTRS::Legal::OTRSAGCopyright)
-## nofilter(TidyAll::Plugin::OTRS::Znuny4OTRS::Deprecated::CodePolicy)
-## nofilter(TidyAll::Plugin::OTRS::Znuny4OTRS::Deprecated::ArticleFunctions)
+# This software comes with ABSOLUTELY NO WARRANTY. For details, see
+# the enclosed file COPYING for license information (GPL). If you
+# did not receive this file, see https://www.gnu.org/licenses/gpl-3.0.txt.
+# --
 
-package Kernel::System::Ticket::Article;    ## no critic (Modules::RequireFilenameMatchesPackage)
+package Kernel::System::Ticket::Article;    ## no critic qw(Modules::RequireFilenameMatchesPackage)
 
 =head1 NAME
 
@@ -428,5 +429,7 @@ sub ArticleContentPathGet {
 
     return $Result;
 }
+
+package Kernel::Autoload::RepoArticle;    ## no critic qw(Modules::ProhibitMultiplePackages)
 
 1;
