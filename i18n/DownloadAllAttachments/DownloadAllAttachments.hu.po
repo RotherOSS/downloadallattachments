@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DownloadAllAttachments\n"
+"POT-Creation-Date: 2024-11-13 16:29+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#. Template: ArticleAttachments
+msgid "Download all \\\\(zip\\\\)"
+msgstr ""
+
+#. Perl Module: Kernel/Output/HTML/TicketMenu/DownloadAllAttachments.pm
+msgid "Download ticket attachments"
+msgstr ""
+
+#. Perl Module: Kernel/Output/HTML/TicketMenu/DownloadAllAttachments.pm
+msgid "Download all attachments as one zip file"
+msgstr ""
+
+#. SysConfig
+msgid "Autoloading of DownloadAttachment extensions."
+msgstr ""
+
+#. SysConfig
+msgid "This configuration registers a link in the ticket menu to download all ticket attachments."
+msgstr ""
+
+#. SysConfig
+msgid "This configuration registers a link in the ticket menu to the ticket overviews of the agent interface to download all ticket attachments."
+msgstr ""
