@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: OTOBO Installation Guide rel-11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-13 11:00+0000\n"
-"PO-Revision-Date: 2026-11-03 13:41+0000\n"
+"PO-Revision-Date: 2026-11-03 15:59+0000\n"
 "Last-Translator: Stefan Abel <sta@rother-oss.com>\n"
 "Language-Team: German <http://translate.otobo.org/projects/otobo-11-1/addons/"
 "manuals/downloadallattachments-documentation/de/>\n"
@@ -98,7 +98,7 @@ msgstr "Konfigurations-Referenz"
 
 #: ../content/index.rst:48
 msgid "Autoloading of DownloadAttachment extensions."
-msgstr "Autoloading der DownloadAttachment-Erweiterungen."
+msgstr "Automatisches Laden der DownloadAttachment-Erweiterungen."
 
 #: ../content/index.rst:55
 msgid "Frontend module registration for the agent interface."
@@ -109,16 +109,17 @@ msgid ""
 "This configuration registers a link in the ticket menu to the ticket "
 "overviews of the agent interface to download all ticket attachments."
 msgstr ""
-"Diese Konfiguration registriert einen Link im Ticketmenü der Agenten-"
-"Ticketübersichten, um alle Ticketanhänge herunterzuladen."
+"Diese Konfiguration registriert eine Schaltfläche im Ticket-Menü der "
+"Ticketübersichten der Agentenoberfläche, um alle Ticket-Anhänge "
+"herunterzuladen."
 
 #: ../content/index.rst:69
 msgid ""
 "This configuration registers a link in the ticket menu to download all "
 "ticket attachments."
 msgstr ""
-"Diese Konfiguration registriert einen Link im Ticketmenü zum Herunterladen "
-"aller Ticketanhänge."
+"Diese Konfiguration registriert eine Schaltfläche im Ticket-Menü um alle "
+"Ticketanhänge herunterzuladen."
 
 #: ../content/index.rst:72
 msgid "About"
