@@ -27,10 +27,13 @@ msgid "Autoloading of DownloadAttachment extensions."
 msgstr ""
 
 #. SysConfig
-msgid "This configuration registers a link in the ticket menu to download all ticket attachments."
+msgid ""
+"This configuration registers a link in the ticket menu to download all "
+"ticket attachments."
 msgstr ""
 
 #. SysConfig
-msgid "This configuration registers a link in the ticket menu to the ticket overviews of the agent interface to download all ticket attachments."
+msgid ""
+"This configuration registers a link in the ticket menu to the ticket "
+"overviews of the agent interface to download all ticket attachments."
 msgstr ""
-
