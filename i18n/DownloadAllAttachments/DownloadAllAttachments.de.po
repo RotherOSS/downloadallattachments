@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DownloadAllAttachments\n"
 "POT-Creation-Date: 2024-11-13 16:29+0000\n"
-"PO-Revision-Date: 2026-11-03 07:13+0000\n"
-"Last-Translator: Stefan Eisenmann <stefane2741@gmail.com>\n"
+"PO-Revision-Date: 2026-11-03 16:59+0000\n"
+"Last-Translator: Stefan Abel <sta@rother-oss.com>\n"
 "Language-Team: German <http://translate.otobo.org/projects/otobo-11-1/addons/"
 "downloadallattachments/de/>\n"
 "Language: de\n"
@@ -27,16 +27,21 @@ msgstr "Alle Anhänge als eine ZIP-Datei herunterladen"
 
 #. SysConfig
 msgid "Autoloading of DownloadAttachment extensions."
-msgstr ""
+msgstr "Automatisches Laden der DownloadAttachment-Erweiterungen."
 
 #. SysConfig
 msgid ""
 "This configuration registers a link in the ticket menu to download all "
 "ticket attachments."
 msgstr ""
+"Diese Konfiguration registriert eine Schaltfläche im Ticket-Menü um alle "
+"Ticketanhänge herunterzuladen."
 
 #. SysConfig
 msgid ""
 "This configuration registers a link in the ticket menu to the ticket "
 "overviews of the agent interface to download all ticket attachments."
 msgstr ""
+"Diese Konfiguration registriert eine Schaltfläche im Ticket-Menü der "
+"Ticketübersichten der Agentenoberfläche, um alle Ticket-Anhänge "
+"herunterzuladen."
