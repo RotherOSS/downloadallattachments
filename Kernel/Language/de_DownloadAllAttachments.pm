@@ -24,18 +24,18 @@ sub Data {
     my $Self = shift;
 
     # Template: ArticleAttachments
-    $Self->{Translation}->{'Download all \(zip\)'} = '';
+    $Self->{Translation}->{'Download all \(zip\)'} = 'Alles herunterladen \(zip\)';
 
     # Perl Module: Kernel/Output/HTML/TicketMenu/DownloadAllAttachments.pm
-    $Self->{Translation}->{'Download ticket attachments'} = '';
-    $Self->{Translation}->{'Download all attachments as one zip file'} = '';
+    $Self->{Translation}->{'Download ticket attachments'} = 'Ticket-Anhänge herunterladen';
+    $Self->{Translation}->{'Download all attachments as one zip file'} = 'Alle Anhänge als eine ZIP-Datei herunterladen';
 
     # SysConfig
-    $Self->{Translation}->{'Autoloading of DownloadAttachment extensions.'} = '';
+    $Self->{Translation}->{'Autoloading of DownloadAttachment extensions.'} = 'Automatisches Laden der DownloadAttachment-Erweiterungen.';
     $Self->{Translation}->{'This configuration registers a link in the ticket menu to download all ticket attachments.'} =
-        '';
+        'Diese Konfiguration registriert eine Schaltfläche im Ticket-Menü um alle Ticketanhänge herunterzuladen.';
     $Self->{Translation}->{'This configuration registers a link in the ticket menu to the ticket overviews of the agent interface to download all ticket attachments.'} =
-        '';
+        'Diese Konfiguration registriert eine Schaltfläche im Ticket-Menü der Ticketübersichten der Agentenoberfläche, um alle Ticket-Anhänge herunterzuladen.';
 
 
     push @{ $Self->{JavaScriptStrings} // [] }, (

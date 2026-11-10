@@ -13,6 +13,7 @@
         <File Permission="660" Location="Custom/Kernel/Output/HTML/Templates/Standard/ArticleAttachments.tt" />
         <File Permission="660" Location="Kernel/Config/Files/XML/DownloadAllAttachments.xml" />
         <File Permission="660" Location="Kernel/Language/de_DownloadAllAttachments.pm" />
+        <File Permission="660" Location="Kernel/Language/hu_DownloadAllAttachments.pm" />
         <File Permission="660" Location="Kernel/Modules/AgentTicketDownloadAllAttachments.pm" />
         <File Permission="660" Location="Kernel/Output/HTML/TicketMenu/DownloadAllAttachments.pm" />
         <File Permission="660" Location="Kernel/Autoload/RepoArticle.pm" />
